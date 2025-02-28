@@ -1,3 +1,4 @@
+// Walk interface with method for walking
 public interface Walk {
-    void walking();
+    void walking();  // Method to represent animal walking
 }
