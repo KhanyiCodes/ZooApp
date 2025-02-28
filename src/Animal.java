@@ -14,8 +14,11 @@ public abstract class Animal implements Eat {
     }
 
     public Animal(String nameOfAnimal, int weight, int height, int age) {
+        this.nameOfAnimal = nameOfAnimal;
+        this.weight = weight;
+        this.height = height;
+        this.age = age;
     }
-
     public String getNameOfAnimal() {
         return nameOfAnimal;
     }
